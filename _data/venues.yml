@@ -1,9 +1,33 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#d9534f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICLR":
+  url: https://iclr.cc/
+  color: "#5cb85c"
 
-"Vision":
-  color: "#009f36"
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#5bc0de"
+
+"TIFS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206
+  color: "#f0ad4e"
+
+"SP":
+  url: https://www.sciencedirect.com/journal/signal-processing
+  color: "#428bca"
+
+"NN":
+  url: https://www.sciencedirect.com/journal/neural-networks
+  color: "#9b59b6"
+
+"IF":
+  url: https://www.sciencedirect.com/journal/information-fusion
+  color: "#e74c3c"
+
+"Preprint":
+  color: "#95a5a6"
+
+"Tech Report":
+  color: "#7f8c8d"
