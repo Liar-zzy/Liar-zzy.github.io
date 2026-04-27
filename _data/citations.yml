@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-04-10'
+  last_updated: '2026-04-27'
 papers:
   TckOPxUAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'On the Robustness of Deep Face Inpainting: An Adversarial Perspective'
     year: '2024'
   TckOPxUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 14
+    citations: 20
     title: 'Gigaworld-0: World models as data engine to empower embodied ai'
     year: '2025'
   TckOPxUAAAAJ:UeHWp8X0CEIC:
-    citations: 14
+    citations: 15
     title: 'Motion-r1: Chain-of-thought reasoning and reinforcement learning for human motion generation'
     year: '2025'
   TckOPxUAAAAJ:W7OEmFMy1HYC:
@@ -18,11 +18,11 @@ papers:
     title: 'MemFly: On-the-Fly Memory Optimization via Information Bottleneck'
     year: '2026'
   TckOPxUAAAAJ:Y0pCki6q_DkC:
-    citations: 13
+    citations: 14
     title: 'Mimicdreamer: Aligning human and robot demonstrations for scalable vla training'
     year: '2025'
   TckOPxUAAAAJ:YsMSGLbcyi4C:
-    citations: 15
+    citations: 18
     title: 'Ir3d-bench: Evaluating vision-language model scene understanding as agentic inverse rendering'
     year: '2025'
   TckOPxUAAAAJ:d1gkVwhDpl0C:
@@ -34,10 +34,10 @@ papers:
     title: 'Multi-Scale Semantic-Guidance Networks: Robust Blind Face Restoration Against Adversarial Attacks'
     year: '2025'
   TckOPxUAAAAJ:u-x6o8ySG0sC:
-    citations: 55
+    citations: 56
     title: Robust single image reflection removal against adversarial attacks
     year: '2023'
   TckOPxUAAAAJ:u5HHmVD_uO8C:
-    citations: 11
+    citations: 12
     title: Deep semantic-aware remote sensing image deblurring
     year: '2023'
