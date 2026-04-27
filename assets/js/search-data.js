@@ -39,7 +39,7 @@ ninja.data = [{
           section: "News",},{id: "news-rocket-our-paper-memfly-is-accepted-by-iclr-26-memagent-workshop-check-it-out",
           title: ':rocket: Our paper MemFly is accepted by ICLR’26 MemAgent Workshop! Check it out!...',
           description: "",
-          section: "News",},{id: "news-check-out-clawnet-our-human-agent-symbiosis-framework-from-hkgai-hkust-for-ai-agent-governance",
+          section: "News",},{id: "news-check-out-clawnet-our-human-agent-symbiosis-framework-from-hkgai-hkust-for-ai-agent-governance-check-out-our-technical-report",
           title: 'Check out ClawNet, our human-agent symbiosis framework from HKGAI@HKUST for AI agent governance!...',
           description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
