@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-27'
+  last_updated: '2026-05-01'
 papers:
   TckOPxUAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -17,6 +17,10 @@ papers:
     citations: 0
     title: 'MemFly: On-the-Fly Memory Optimization via Information Bottleneck'
     year: '2026'
+  TckOPxUAAAAJ:WF5omc3nYNoC:
+    citations: 4
+    title: 'RRFormer: A New Transformer-Based Method for Ultra High-Definition Reflection Removal'
+    year: '2026'
   TckOPxUAAAAJ:Y0pCki6q_DkC:
     citations: 14
     title: 'Mimicdreamer: Aligning human and robot demonstrations for scalable vla training'
@@ -25,10 +29,10 @@ papers:
     citations: 18
     title: 'Ir3d-bench: Evaluating vision-language model scene understanding as agentic inverse rendering'
     year: '2025'
-  TckOPxUAAAAJ:d1gkVwhDpl0C:
-    citations: 4
-    title: Benchmarking ultra-high-definition image reflection removal
-    year: '2023'
+  TckOPxUAAAAJ:eQOLeE2rZwMC:
+    citations: 0
+    title: 'ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation'
+    year: '2026'
   TckOPxUAAAAJ:qjMakFHDy7sC:
     citations: 1
     title: 'Multi-Scale Semantic-Guidance Networks: Robust Blind Face Restoration Against Adversarial Attacks'
