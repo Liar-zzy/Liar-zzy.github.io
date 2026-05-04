@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-04'
 papers:
   TckOPxUAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'On the Robustness of Deep Face Inpainting: An Adversarial Perspective'
     year: '2024'
   TckOPxUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 20
+    citations: 21
     title: 'Gigaworld-0: World models as data engine to empower embodied ai'
     year: '2025'
   TckOPxUAAAAJ:UeHWp8X0CEIC:
@@ -20,13 +20,13 @@ papers:
   TckOPxUAAAAJ:WF5omc3nYNoC:
     citations: 4
     title: 'RRFormer: A New Transformer-Based Method for Ultra High-Definition Reflection Removal'
-    year: '2026'
+    year: Unknown Year
   TckOPxUAAAAJ:Y0pCki6q_DkC:
-    citations: 14
+    citations: 16
     title: 'Mimicdreamer: Aligning human and robot demonstrations for scalable vla training'
     year: '2025'
   TckOPxUAAAAJ:YsMSGLbcyi4C:
-    citations: 18
+    citations: 17
     title: 'Ir3d-bench: Evaluating vision-language model scene understanding as agentic inverse rendering'
     year: '2025'
   TckOPxUAAAAJ:eQOLeE2rZwMC:
@@ -38,7 +38,7 @@ papers:
     title: 'Multi-Scale Semantic-Guidance Networks: Robust Blind Face Restoration Against Adversarial Attacks'
     year: '2025'
   TckOPxUAAAAJ:u-x6o8ySG0sC:
-    citations: 56
+    citations: 55
     title: Robust single image reflection removal against adversarial attacks
     year: '2023'
   TckOPxUAAAAJ:u5HHmVD_uO8C:
