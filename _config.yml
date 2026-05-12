@@ -9,11 +9,11 @@ last_name: Zhang
 contact_note: >
   Feel free to reach out via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Zhenyuan Zhang's personal academic website. Ph.D. student at HKUST working on computer vision and deep learning.
+  Zhenyuan Zhang (HKUST AIS Ph.D. student) — personal academic website. Research on AI agents, agent memory, motion generation, embodied AI, and VLA, supervised by Prof. Yike Guo.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Agentic Memory, Image Restoration # add your own keywords or leave empty
+keywords: Zhenyuan Zhang, HKUST, AI Agents, Agent Memory, Embodied AI, VLA, Motion Generation, Image Restoration # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🚀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
