@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="22" fill="#b509ac"/>
+  <text x="50" y="73" text-anchor="middle"
+        font-family="Inter, -apple-system, system-ui, sans-serif"
+        font-size="78" font-weight="800"
+        letter-spacing="-3" fill="#ffffff">Z</text>
+</svg>
