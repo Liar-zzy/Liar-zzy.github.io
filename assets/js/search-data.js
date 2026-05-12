@@ -16,6 +16,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-tools-amp-projects",
+          title: "tools &amp; projects",
+          description: "Open-source tools and projects I have built or contributed to.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "news-confetti-ball-one-paper-on-robustsirr-is-accepted-by-cvpr-2023",
           title: ':confetti_ball: One paper on RobustSIRR is accepted by CVPR 2023!',
           description: "",
