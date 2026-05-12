@@ -11,8 +11,10 @@ span,
 em,
 strong,
 div {
-  font-family: "Atkinson Hyperlegible", "Roboto", system-ui, -apple-system,
-    "Segoe UI", sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", system-ui, sans-serif;
+  font-feature-settings: "cv11", "ss01", "cv02";
+  letter-spacing: -0.005em;
 }
 
 h1,
@@ -25,9 +27,11 @@ h6,
 .post-header h1,
 .publications h1,
 .publications h2 {
-  font-family: "Crimson Pro", "Roboto Slab", Georgia, serif;
-  font-weight: 600;
-  letter-spacing: -0.005em;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.022em;
+  line-height: 1.25;
 }
 
 p,
@@ -47,12 +51,12 @@ strong {
 
 /* Subtitle under the name in about header */
 .post-header .desc {
-  font-family: "Crimson Pro", Georgia, serif;
-  font-style: italic;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    system-ui, sans-serif;
   font-weight: 400;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   color: var(--global-text-color-light);
-  letter-spacing: 0.015em;
+  letter-spacing: -0.005em;
   margin-bottom: 0.25rem;
 
   a {
@@ -246,6 +250,325 @@ table.table a {
 
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
+  }
+}
+
+/* Animated slide-in underline for body / news content links — scoped to
+   avoid colliding with author dashed/solid underlines and badge links. */
+.post > article p a:not(.btn),
+.news .table td a {
+  text-decoration: none !important;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 calc(100% - 1px);
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition:
+    background-size 0.25s ease,
+    color 0.2s ease;
+
+  &:hover {
+    background-size: 100% 1px;
+    text-decoration: none !important;
+  }
+}
+
+/* Smooth in-page anchor scrolling (respects reduced-motion) */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* α — External link ↗ marker on body / news text content */
+.post > article p a[target="_blank"]::after,
+.news .table td a[target="_blank"]::after {
+  content: "↗";
+  display: inline-block;
+  margin-left: 0.18em;
+  font-size: 0.78em;
+  opacity: 0.5;
+  vertical-align: 0.05em;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.post > article p a[target="_blank"]:hover::after,
+.news .table td a[target="_blank"]:hover::after {
+  opacity: 1;
+}
+
+/* κ — Page-load fade-in for main content */
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes pageFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .post {
+    animation: pageFadeIn 0.45s ease-out;
+  }
+}
+
+/* λ — Staggered fade-in for news timeline dots */
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes newsDotIn {
+    from {
+      opacity: 0;
+      transform: scale(0.4);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .news .table tr td::before {
+    animation: newsDotIn 0.35s ease-out backwards;
+    transform-origin: center;
+  }
+
+  @for $i from 1 through 12 {
+    .news .table tr:nth-child(#{$i}) td::before {
+      animation-delay: #{0.04 * $i + 0.05}s;
+    }
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Mobile adaptation (< 576px)
+   ───────────────────────────────────────────────────────────── */
+@media (max-width: 575.98px) {
+  /* Header: tighten title + subtitle for narrow screens */
+  .post-header {
+    text-align: center;
+
+    h1.post-title {
+      font-size: 2.1rem;
+      line-height: 1.15;
+    }
+
+    .desc {
+      font-size: 0.95rem;
+      margin-top: 0.35rem;
+    }
+  }
+
+  /* Profile: take ~60% width, centered above the bio, soft glow inset */
+  .profile {
+    width: 62% !important;
+    float: none !important;
+    margin: 0 auto 1.5rem !important;
+
+    &::before {
+      inset: -8px;
+      filter: blur(6px);
+    }
+
+    .slogan {
+      font-size: 1.15rem;
+    }
+  }
+
+  /* Body: small section breathing room + tighter heading */
+  .post > article {
+    > p:first-of-type {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    > h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+      padding-left: 0.65rem;
+      border-left-width: 2px;
+    }
+  }
+
+  /* News: compact dates + smaller dot, smaller text */
+  .news .table {
+    th[scope="row"] {
+      padding: 0.35rem 0.75rem 0.35rem 0;
+      font-size: 0.8rem;
+    }
+
+    td {
+      padding: 0.35rem 0 0.45rem 0.85rem;
+      font-size: 0.95rem;
+      line-height: 1.45;
+
+      &::before {
+        width: 7px;
+        height: 7px;
+        left: -4px;
+        top: 0.6em;
+      }
+    }
+  }
+
+  /* Publications & tools & projects: force a clean vertical stack on phone,
+     with preview + badge on top, content full width below, larger tappable
+     buttons. */
+  .publications .bibliography li {
+    padding: 0.75rem 0;
+
+    > .row {
+      flex-direction: column;
+      row-gap: 0.65rem;
+
+      > .abbr,
+      > .col-sm-10,
+      > [class*="col-sm-"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  /* Hide preview thumbnails on phones — content-first stacking */
+  .publications .abbr figure,
+  .publications .abbr picture,
+  .publications .abbr img.preview {
+    display: none !important;
+  }
+
+  /* If the abbr column has no venue badge (e.g. tools & projects card),
+     drop the whole column to remove dead space */
+  .publications .abbr:not(:has(abbr)) {
+    display: none !important;
+  }
+
+  /* Keep venue badge (Preprint / ICLR / NeurIPS …) compact and centered */
+  .publications .abbr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    abbr.badge {
+      width: auto !important;
+      max-width: 140px;
+      padding: 0.25rem 0.85rem;
+      font-size: 0.78rem;
+    }
+  }
+
+  /* Content text */
+  .publications .col-sm-10 {
+    text-align: left;
+
+    .title {
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+
+    .author {
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    .periodical {
+      font-size: 0.88rem;
+    }
+  }
+
+  /* Tappable buttons: meet 44px target */
+  .publications .links {
+    margin-top: 0.55rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+
+    a.btn {
+      padding: 0.45rem 0.95rem !important;
+      font-size: 0.85rem;
+      min-height: 36px;
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+
+  /* "View all publications →" smaller */
+  .publications.view-all {
+    font-size: 0.88rem;
+  }
+
+  /* Footer: tighten padding + sizes */
+  footer.sticky-bottom {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    .footer-quote {
+      font-size: 0.95rem;
+    }
+
+    .footer-copyright {
+      font-size: 0.78rem;
+    }
+  }
+}
+
+/* Tablet (576px-767px): mid profile width so photo doesn't dominate */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .profile {
+    width: 32% !important;
+  }
+}
+
+/* A — Asterism (⁂) section divider, 19th-century literary flourish */
+hr.asterism {
+  border: 0;
+  height: auto;
+  margin: 3rem 0 1.75rem;
+  text-align: center;
+  overflow: visible;
+
+  &::before {
+    content: "⁂";
+    display: inline-block;
+    font-family: "Crimson Pro", Georgia, serif;
+    font-size: 1.4rem;
+    color: var(--global-text-color-light);
+    opacity: 0.55;
+    letter-spacing: 0.45em;
+    padding-left: 0.45em; /* compensate for trailing letter-spacing */
+  }
+}
+
+/* ν — Footer quote + copyright styling */
+footer.sticky-bottom {
+  .footer-quote {
+    font-family: "Crimson Pro", Georgia, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: var(--global-text-color-light);
+    margin: 0 0 0.35rem;
+    letter-spacing: 0.01em;
+  }
+
+  .footer-copyright {
+    font-size: 0.82rem;
+    color: var(--global-text-color-light);
+    margin: 0;
+    letter-spacing: 0.01em;
+
+    a {
+      color: inherit;
+      border-bottom: 1px dotted var(--global-text-color-light);
+
+      &:hover {
+        color: var(--global-theme-color);
+        border-bottom-color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
   }
 }
 

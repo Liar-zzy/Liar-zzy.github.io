@@ -12,6 +12,25 @@
   -webkit-backdrop-filter: saturate(180%) blur(14px);
 }
 
+/* β — Highlight the current navigation item with theme color + underline */
+.navbar-nav .nav-item.active .nav-link {
+  color: var(--global-theme-color) !important;
+  font-weight: 600;
+  position: relative;
+}
+
+.navbar-nav .nav-item.active .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  transform: translateX(-50%);
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--global-theme-color);
+}
+
 .navbar .dropdown-menu,
 .btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
