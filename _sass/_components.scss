@@ -58,6 +58,11 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  img {
+    border-radius: 14px !important;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08) !important;
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;

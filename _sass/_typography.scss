@@ -45,6 +45,28 @@ strong {
   color: var(--global-text-color);
 }
 
+/* Subtitle under the name in about header */
+.post-header .desc {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: var(--global-text-color-light);
+  letter-spacing: 0.015em;
+  margin-bottom: 0.25rem;
+
+  a {
+    color: inherit;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:hover {
+      text-decoration: none;
+      color: var(--global-theme-color);
+      border-bottom-color: var(--global-theme-color);
+    }
+  }
+}
+
 /* Personal slogan under the profile photo */
 .profile .slogan {
   font-family: "Crimson Pro", Georgia, serif;
@@ -68,6 +90,7 @@ strong {
 
 /* Section heading rhythm on the about page */
 .post > article > h2 {
+  position: relative;
   margin-top: 2.75rem;
   margin-bottom: 1.25rem;
   padding-left: 0.85rem;
@@ -82,24 +105,118 @@ strong {
       color: var(--global-theme-color);
     }
   }
+
+  /* Hover-only anchor # to make sections feel shareable */
+  &::after {
+    content: "#";
+    margin-left: 0.45rem;
+    color: var(--global-text-color-light);
+    opacity: 0;
+    font-weight: 400;
+    transition: opacity 0.15s ease;
+  }
+
+  &:hover::after {
+    opacity: 0.45;
+  }
 }
 
-/* News table: subtle tabular dates */
-.news .table th[scope="row"] {
-  font-variant-numeric: tabular-nums;
-  font-weight: 500;
-  color: var(--global-text-color-light);
-  letter-spacing: -0.01em;
-  white-space: nowrap;
+/* Lead paragraph: slightly bigger first paragraph of the about content */
+.post > article > p:first-of-type {
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+/* News: changelog-style timeline (dashed line + dot per item), tight rhythm */
+.news .table {
+  th[scope="row"] {
+    width: auto !important; /* override inline width: 20% */
+    font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    letter-spacing: 0;
+    white-space: nowrap;
+    vertical-align: top;
+    padding: 0.4rem 1rem 0.4rem 0;
+    line-height: 1.55;
+  }
+
+  td {
+    position: relative;
+    vertical-align: top;
+    text-align: left;
+    border-left: 1px dashed var(--global-divider-color);
+    padding: 0.4rem 0 0.5rem 1rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+
+    /* jemoji-rendered emoji images sit on baseline by default; pull them up
+       so they read inline with the surrounding text */
+    img.emoji {
+      vertical-align: -0.18em;
+      margin-right: 0.05em;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -5px;
+      top: 0.75em;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--global-bg-color);
+      border: 2px solid var(--global-theme-color);
+    }
+  }
+}
+
+/* "View all publications →" link under selected_papers on about page */
+.publications .view-all {
+  text-align: right;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+
+  a {
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-bottom-color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
 }
 
 /* Lock publication preview aspect ratio so the left column is uniform */
+.publications .abbr {
+  text-align: center;
+
+  figure {
+    margin: 0;
+  }
+}
+
 .publications .abbr img.preview,
 .publications .abbr picture img {
   aspect-ratio: 4 / 3;
   width: 100%;
+  max-width: 110px;
   height: auto;
   object-fit: cover;
+}
+
+/* When zoomed via medium-zoom, restore the original aspect ratio
+   and let the viewport bound the long dimension */
+img.medium-zoom-image--opened {
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  max-width: 92vw !important;
+  max-height: 92vh !important;
 }
 
 hr {

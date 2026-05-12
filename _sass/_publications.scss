@@ -38,6 +38,18 @@
 
     li {
       margin-bottom: 1rem;
+      padding: 0.5rem 0.25rem;
+      border-radius: 6px;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+
+      &:hover {
+        background-color: color-mix(in srgb, var(--global-theme-color) 4%, transparent);
+        transform: translateY(-1px);
+
+        .title {
+          color: var(--global-theme-color);
+        }
+      }
 
       .preview {
         display: inline-block;
@@ -50,10 +62,11 @@
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
+          color: #ffffff !important;
 
-          a {
-            color: white;
+          a,
+          div {
+            color: #ffffff !important;
 
             &:hover {
               text-decoration: none;
@@ -69,9 +82,17 @@
 
       .title {
         font-weight: bolder;
+        transition: color 0.2s ease;
       }
 
       .author {
+        b {
+          font-weight: 700;
+          color: var(--global-theme-color);
+          border-bottom: 1px solid var(--global-theme-color);
+          padding-bottom: 1px;
+        }
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 

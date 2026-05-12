@@ -74,11 +74,16 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
+      <div class="publications view-all">
+        <a href="{{ '/publications/' | relative_url }}">View all publications →</a>
+      </div>
     {% endif %}
 
     <!-- Tools & projects -->
     {% if page.tools_projects %}
-      <h2>tools &amp; projects</h2>
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">tools &amp; projects</a>
+      </h2>
       {% include tools_projects.liquid %}
     {% endif %}
 
