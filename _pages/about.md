@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Ph.D. Student at <a href='https://hkust.edu.hk/'>HKUST</a>, AIS, Artificial Intelligence
+slogan: Be Better
 
 profile:
   align: right
