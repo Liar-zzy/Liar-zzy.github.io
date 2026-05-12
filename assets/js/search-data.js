@@ -16,12 +16,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-confetti-ball-one-paper-on-robustsirr-is-accepted-by-cvpr-2023",
+        },{id: "news-confetti-ball-one-paper-on-robustsirr-is-accepted-by-cvpr-2023",
           title: ':confetti_ball: One paper on RobustSIRR is accepted by CVPR 2023!',
           description: "",
           section: "News",},{id: "news-sparkles-one-paper-on-multi-scale-semantic-guidance-networks-is-accepted-by-ieee-tifs-ccf-a",
@@ -42,17 +37,7 @@ ninja.data = [{
           section: "News",},{id: "news-check-out-clawnet-our-human-agent-symbiosis-framework-from-hkgai-hkust-for-ai-agent-governance-check-out-our-technical-report",
           title: 'Check out ClawNet, our human-agent symbiosis framework from HKGAI@HKUST for AI agent governance!...',
           description: "",
-          section: "News",},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
-            },},{
+          section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
