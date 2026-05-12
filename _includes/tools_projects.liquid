@@ -3,9 +3,16 @@
     <li>
       <div class="row">
         <div class="col col-sm-2 abbr">
-          <a href="https://miomioos.github.io/MioIsland/" target="_blank" rel="external nofollow noopener">
-            <img class="preview z-depth-1 rounded" src="{{ '/assets/img/mioisland-logo.jpg' | relative_url }}" alt="MioIsland logo">
-          </a>
+          {%
+            include figure.liquid
+            loading="eager"
+            path="/assets/img/mioisland-logo.jpg"
+            sizes="200px"
+            class="preview z-depth-1 rounded"
+            zoomable=true
+            avoid_scaling=true
+            alt="MioIsland logo"
+          %}
         </div>
         <div class="col-sm-8">
           <div class="title">
