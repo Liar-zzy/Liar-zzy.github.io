@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:sparkles: One paper on **RRFormer** is accepted by **Information Fusion**!
+:sparkles: One paper is accepted by **Information Fusion**!
