@@ -29,4 +29,4 @@ latest_posts:
 
 I am **Zhenyuan Zhang**, a Ph.D. student in AIS at [The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), supervised by [Prof. Yike Guo](https://cse.hkust.edu.hk/admin/people/faculty/profile/yikeguo) and [Prof. Wei Xue](http://wei-xue.com). Before joining HKUST, I was a Ph.D. student (Direct Entry) in Computer Science and Technology at [Nanjing University of Science and Technology (NJUST)](https://www.njust.edu.cn/), supervised by [Prof. Jianfeng Lu](https://cs.njust.edu.cn/b4/e0/c1732a177376/page.htm). I received my B.Eng. in Software Engineering from NJUST in 2021.
 
-My research interests center on **AI agents** and **embodied AI**, including agent memory, motion generation, and VLA. Previously, I worked on image restoration and adversarial robustness.
+My research interests center on **Agent Memory** and **Embodied AI**, including memory-augmented agents, motion generation, and VLA.

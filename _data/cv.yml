@@ -86,6 +86,10 @@ cv:
         summary: "IELTS 6.5"
 
     Interests:
-      - name: Computer Vision
-        icon: fa-solid fa-eye
-        keywords: "Image Restoration, Face Restoration, Adversarial Robustness, Motion Generation, World Models"
+      - name: Agent Memory
+        icon: fa-solid fa-brain
+        keywords: "Memory-Augmented Agents, Long-Term Memory, Retrieval-Augmented Generation, Continual Learning"
+
+      - name: Embodied AI
+        icon: fa-solid fa-robot
+        keywords: "Motion Generation, VLA, World Models, Robot Learning"
