@@ -36,7 +36,7 @@ ninja.data = [{
           section: "News",},{id: "news-sparkles-one-paper-on-multi-scale-semantic-guidance-networks-is-accepted-by-ieee-tifs-ccf-a",
           title: ':sparkles: One paper on Multi-Scale Semantic-Guidance Networks is accepted by IEEE TIFS (CCF...',
           description: "",
-          section: "News",},{id: "news-star2-started-my-ph-d-in-artificial-intelligence-at-hkust-supervised-by-prof-yike-guo",
+          section: "News",},{id: "news-star2-started-my-ph-d-in-artificial-intelligence-at-hkust-supervised-by-prof-yike-guo-and-prof-wei-xue",
           title: ':star2: Started my Ph.D. in Artificial Intelligence at HKUST, supervised by Prof. Yike...',
           description: "",
           section: "News",},{id: "news-tada-one-paper-ir3d-bench-is-accepted-by-neurips-2025",
