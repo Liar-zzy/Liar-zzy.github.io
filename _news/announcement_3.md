@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:star2: Started my Ph.D. in Artificial Intelligence at **HKUST**, supervised by Prof. Yike Guo.
+:star2: Started my Ph.D. in Artificial Intelligence at **HKUST**, supervised by Prof. Yike Guo and Prof. Wei Xue.
