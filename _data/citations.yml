@@ -1,12 +1,16 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-24'
 papers:
   TckOPxUAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: 'On the Robustness of Deep Face Inpainting: An Adversarial Perspective'
     year: '2024'
+  TckOPxUAAAAJ:LkGwnXOMwfcC:
+    citations: 2
+    title: Gradient-Based Adversarial Attacks on Deep LiDAR Odometry
+    year: '2025'
   TckOPxUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 36
+    citations: 37
     title: 'Gigaworld-0: World models as data engine to empower embodied ai'
     year: '2025'
   TckOPxUAAAAJ:UeHWp8X0CEIC:
@@ -22,12 +26,16 @@ papers:
     title: 'RRFormer: A new transformer-based method for ultra high-definition reflection removal'
     year: '2026'
   TckOPxUAAAAJ:Y0pCki6q_DkC:
-    citations: 29
+    citations: 30
     title: 'Mimicdreamer: Aligning human and robot demonstrations for scalable vla training'
     year: '2025'
   TckOPxUAAAAJ:YsMSGLbcyi4C:
-    citations: 26
+    citations: 28
     title: 'Ir3d-bench: Evaluating vision-language model scene understanding as agentic inverse rendering'
+    year: '2026'
+  TckOPxUAAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: 'GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch'
     year: '2026'
   TckOPxUAAAAJ:eQOLeE2rZwMC:
     citations: 0
@@ -37,8 +45,12 @@ papers:
     citations: 1
     title: 'Multi-Scale Semantic-Guidance Networks: Robust Blind Face Restoration Against Adversarial Attacks'
     year: '2025'
+  TckOPxUAAAAJ:roLk4NBRz8UC:
+    citations: 4
+    title: 'As-fiba: Adaptive selective frequency-injection for backdoor attack on deep face restoration'
+    year: '2024'
   TckOPxUAAAAJ:u-x6o8ySG0sC:
-    citations: 65
+    citations: 66
     title: Robust single image reflection removal against adversarial attacks
     year: '2023'
   TckOPxUAAAAJ:u5HHmVD_uO8C:
@@ -46,6 +58,6 @@ papers:
     title: Deep semantic-aware remote sensing image deblurring
     year: '2023'
   TckOPxUAAAAJ:ufrVoPGSRksC:
-    citations: 0
+    citations: 1
     title: 'GigaWorld-1: A Roadmap to Build World Models for Robot Policy Evaluation'
     year: '2026'
