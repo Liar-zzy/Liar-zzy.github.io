@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-03'
 papers:
   TckOPxUAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -10,11 +10,11 @@ papers:
     title: Gradient-Based Adversarial Attacks on Deep LiDAR Odometry
     year: '2025'
   TckOPxUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 37
+    citations: 43
     title: 'Gigaworld-0: World models as data engine to empower embodied ai'
     year: '2025'
   TckOPxUAAAAJ:UeHWp8X0CEIC:
-    citations: 17
+    citations: 18
     title: 'Motion-r1: Chain-of-thought reasoning and reinforcement learning for human motion generation'
     year: '2025'
   TckOPxUAAAAJ:W7OEmFMy1HYC:
@@ -26,15 +26,15 @@ papers:
     title: 'RRFormer: A new transformer-based method for ultra high-definition reflection removal'
     year: '2026'
   TckOPxUAAAAJ:Y0pCki6q_DkC:
-    citations: 30
+    citations: 31
     title: 'Mimicdreamer: Aligning human and robot demonstrations for scalable vla training'
     year: '2025'
   TckOPxUAAAAJ:YsMSGLbcyi4C:
-    citations: 28
+    citations: 30
     title: 'Ir3d-bench: Evaluating vision-language model scene understanding as agentic inverse rendering'
     year: '2026'
   TckOPxUAAAAJ:_FxGoFyzp5QC:
-    citations: 0
+    citations: 1
     title: 'GigaWorld-Policy-0.5: A Faster and Stronger WAM Empowered by AutoResearch'
     year: '2026'
   TckOPxUAAAAJ:eQOLeE2rZwMC:
@@ -42,11 +42,11 @@ papers:
     title: 'ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation'
     year: '2026'
   TckOPxUAAAAJ:qjMakFHDy7sC:
-    citations: 1
+    citations: 2
     title: 'Multi-Scale Semantic-Guidance Networks: Robust Blind Face Restoration Against Adversarial Attacks'
     year: '2025'
   TckOPxUAAAAJ:roLk4NBRz8UC:
-    citations: 4
+    citations: 2
     title: 'As-fiba: Adaptive selective frequency-injection for backdoor attack on deep face restoration'
     year: '2024'
   TckOPxUAAAAJ:u-x6o8ySG0sC:
