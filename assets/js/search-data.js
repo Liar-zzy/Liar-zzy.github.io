@@ -54,6 +54,9 @@ ninja.data = [{
           section: "News",},{id: "news-check-out-clawnet-our-human-agent-symbiosis-framework-from-hkgai-hkust-for-ai-agent-governance-check-out-our-technical-report",
           title: 'Check out ClawNet, our human-agent symbiosis framework from HKGAI@HKUST for AI agent governance!...',
           description: "",
+          section: "News",},{id: "news-robot-our-new-preprint-zero2skill-a-human-robot-symbiotic-agentic-system-that-bootstraps-robot-skills-through-autonomous-data-collection-training-and-deployment-check-out-the-project-page",
+          title: ':robot: Our new preprint Zero2Skill: a human-robot symbiotic agentic system that bootstraps robot...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
