@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-07'
 papers:
   TckOPxUAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -17,6 +17,10 @@ papers:
     citations: 18
     title: 'Motion-r1: Chain-of-thought reasoning and reinforcement learning for human motion generation'
     year: '2025'
+  TckOPxUAAAAJ:UebtZRa9Y70C:
+    citations: 1
+    title: A Control Theory of Predictability in Latent World Models
+    year: '2026'
   TckOPxUAAAAJ:W7OEmFMy1HYC:
     citations: 1
     title: 'MemFly: On-the-Fly Memory Optimization via Information Bottleneck'
@@ -40,6 +44,10 @@ papers:
   TckOPxUAAAAJ:eQOLeE2rZwMC:
     citations: 0
     title: 'ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation'
+    year: '2026'
+  TckOPxUAAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: 'Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment'
     year: '2026'
   TckOPxUAAAAJ:qjMakFHDy7sC:
     citations: 2
