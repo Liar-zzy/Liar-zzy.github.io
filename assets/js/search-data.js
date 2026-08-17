@@ -57,6 +57,9 @@ ninja.data = [{
           section: "News",},{id: "news-robot-our-new-preprint-zero2skill-a-human-robot-symbiotic-agentic-system-that-bootstraps-robot-skills-through-autonomous-data-collection-training-and-deployment-check-out-the-project-page",
           title: ':robot: Our new preprint Zero2Skill: a human-robot symbiotic agentic system that bootstraps robot...',
           description: "",
+          section: "News",},{id: "news-sparkles-one-paper-is-accepted-by-neural-networks",
+          title: ':sparkles: One paper is accepted by Neural Networks!',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
