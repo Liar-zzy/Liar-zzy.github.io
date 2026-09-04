@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-26'
+  last_updated: '2026-09-04'
 papers:
   TckOPxUAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -38,7 +38,7 @@ papers:
     title: 'Mimicdreamer: Aligning human and robot demonstrations for scalable vla training'
     year: '2025'
   TckOPxUAAAAJ:YsMSGLbcyi4C:
-    citations: 31
+    citations: 33
     title: 'Ir3d-bench: Evaluating vision-language model scene understanding as agentic inverse rendering'
     year: '2026'
   TckOPxUAAAAJ:_FxGoFyzp5QC:
@@ -58,7 +58,7 @@ papers:
     title: 'As-fiba: Adaptive selective frequency-injection for backdoor attack on deep face restoration'
     year: '2024'
   TckOPxUAAAAJ:u-x6o8ySG0sC:
-    citations: 66
+    citations: 67
     title: Robust single image reflection removal against adversarial attacks
     year: '2023'
   TckOPxUAAAAJ:u5HHmVD_uO8C:
@@ -66,6 +66,6 @@ papers:
     title: Deep semantic-aware remote sensing image deblurring
     year: '2023'
   TckOPxUAAAAJ:ufrVoPGSRksC:
-    citations: 3
+    citations: 4
     title: 'GigaWorld-1: A Roadmap to Build World Models for Robot Policy Evaluation'
     year: '2026'
