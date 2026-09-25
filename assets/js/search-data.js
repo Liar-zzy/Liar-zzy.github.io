@@ -60,6 +60,9 @@ ninja.data = [{
           section: "News",},{id: "news-sparkles-one-paper-is-accepted-by-neural-networks",
           title: ':sparkles: One paper is accepted by Neural Networks!',
           description: "",
+          section: "News",},{id: "news-tada-one-paper-memcore-is-accepted-by-neurips-2026",
+          title: ':tada: One paper MemCoRe is accepted by NeurIPS 2026!',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
