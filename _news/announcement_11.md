@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:tada: One paper [MemCoRe](https://arxiv.org/abs/2602.07885) is accepted by **NeurIPS 2026**!
+:tada: One paper **[MemCoRe](https://arxiv.org/abs/2602.07885)** is accepted by **NeurIPS 2026**!
